@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>راهنمای بازیابی اکانت اینستاگرام بسته‌شده به‌خاطر VPN</title>
+<meta name="description" content="راهنمای گام‌به‌گام بازیابی اکانت اینستاگرام: فرم‌های پشتیبانی، متن‌های آماده برای کپی، و روش تأیید هویت با عکس سلفی.">
+<meta property="og:title" content="راهنمای بازیابی اکانت اینستاگرام">
+<meta property="og:description" content="مراحل گام‌به‌گام، فرم‌ها و متن‌های آماده برای بازگردانی پیج">
+<meta property="og:type" content="article">
+<style>@font-face{font-family:'Vazir';src:url('fonts/Vazir.ttf') format('truetype');font-weight:400;font-display:swap}
+@font-face{font-family:'Vazir';src:url('fonts/Vazir-Bold.ttf') format('truetype');font-weight:700;font-display:swap}
+:root{--p1:#5b2bd6;--p2:#c2257f;--p3:#f08a24;--ink:#1f1b2e;--muted:#6b6780;--line:#e6e2f2;--bg:#f7f5fc;--card:#fff;--page:#fff;--warnbg:#fff4e5;--warnink:#5a3200;--okbg:#e9f8ef;--okink:#0e4a2e;--copybg:#1f1b2e;--copyink:#f3efff}
+@media (prefers-color-scheme:dark){:root{--ink:#ece8f7;--muted:#a9a3bf;--line:#34304a;--bg:#1d1a2c;--card:#171424;--page:#110f1c;--warnbg:#3a2a12;--warnink:#ffdcae;--okbg:#10301f;--okink:#bdf0d3;--copybg:#0b0a14}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--page);color:var(--ink);font-family:'Vazir','Tahoma',sans-serif;font-size:16px;line-height:2}
+.wrap{max-width:980px;margin:0 auto;padding:0 16px}
+.hero{background:linear-gradient(150deg,var(--p1) 0%,var(--p2) 62%,var(--p3) 100%);color:#fff;padding:44px 0 40px}
+.badge{display:inline-block;background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.4);padding:2px 14px;border-radius:99px;font-size:13px;margin-bottom:14px}
+.hero h1{margin:0 0 10px;font-size:clamp(26px,6vw,40px);line-height:1.6}
+.hero p{margin:0 0 14px;opacity:.95;max-width:560px}
+.meta{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px;font-size:13px}
+.meta span{background:rgba(0,0,0,.18);padding:1px 12px;border-radius:99px}
+.dl{display:inline-block;background:#fff;color:var(--p1);font-weight:700;padding:8px 22px;border-radius:12px;text-decoration:none}
+.toc{position:sticky;top:0;z-index:20;background:var(--page);border-bottom:1px solid var(--line)}
+.toc .wrap{display:flex;gap:8px;overflow-x:auto;padding:10px 16px;scrollbar-width:none}
+.toc a{flex:none;font-size:13.5px;color:var(--p1);background:var(--bg);border:1px solid var(--line);padding:0 12px;border-radius:99px;text-decoration:none;line-height:30px}
+@media (prefers-color-scheme:dark){.toc a{color:#c9b8ff}}
+section{padding:32px 0 8px;scroll-margin-top:54px}
+h2{display:flex;align-items:center;gap:12px;margin:0 0 14px;font-size:21px;line-height:1.6;color:var(--p1)}
+@media (prefers-color-scheme:dark){h2{color:#c9b8ff}}
+.num{flex:none;width:38px;height:38px;border-radius:50%;background:linear-gradient(135deg,var(--p1),var(--p2));color:#fff;font-size:17px;display:flex;align-items:center;justify-content:center}
+h3,.h3{font-size:17px;margin:22px 0 8px;color:var(--p2)}
+.card h3{margin:0 0 6px;color:var(--p1)}
+p{margin:0 0 12px}.lead{color:var(--muted)}
+.en{direction:ltr;unicode-bidi:isolate;font-size:.95em}.en.block{display:block;text-align:left}
+.split{display:grid;gap:18px;grid-template-columns:1fr}
+.col-f{display:flex;flex-direction:column;align-items:center}
+@media (min-width:860px){.split{grid-template-columns:1fr 400px;align-items:start}.split .col-f{position:sticky;top:64px}}
+.steps{list-style:none;margin:0 0 14px;padding:0;counter-reset:s}
+.steps li{counter-increment:s;position:relative;background:var(--bg);border:1px solid var(--line);border-radius:12px;padding:8px 52px 8px 14px;margin-bottom:8px;line-height:1.9}
+.steps li::before{content:counter(s,persian);position:absolute;right:12px;top:9px;width:28px;height:28px;border-radius:50%;background:var(--p1);color:#fff;font-size:14px;display:flex;align-items:center;justify-content:center;line-height:1}
+.box{border-radius:12px;padding:10px 16px;margin:0 0 14px;border-right:5px solid var(--p1);background:var(--bg)}
+.box.warn{background:var(--warnbg);color:var(--warnink);border-right-color:var(--p3)}
+.box.ok{background:var(--okbg);color:var(--okink);border-right-color:#22a566}
+.label{margin:6px 0 4px;font-size:13.5px;color:var(--muted)}
+.pill{display:inline-block;font-size:12.5px;font-weight:700;color:#fff;padding:0 10px;border-radius:99px;margin-left:6px;line-height:22px}
+.pl{background:var(--p1)}.pc{background:var(--p2)}
+.linkbox,.copy{position:relative;margin:0 0 14px}
+.linkbox{display:flex;align-items:center;gap:8px;background:var(--card);border:1.5px dashed var(--p1);border-radius:12px;padding:8px 10px}
+.linkbox a{flex:1;min-width:0;direction:ltr;text-align:left;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:12.5px;color:var(--p1);word-break:break-all;text-decoration:none;line-height:1.7}
+@media (prefers-color-scheme:dark){.linkbox a{color:#c9b8ff}}
+.copy{background:var(--copybg);border-radius:12px;padding:12px 14px 12px 76px}
+.copy pre{margin:0;direction:ltr;text-align:left;white-space:pre-wrap;word-break:break-word;font-family:ui-monospace,Menlo,Consolas,monospace;font-size:13px;line-height:1.75;color:var(--copyink)}
+button[data-copy]{font-family:inherit;cursor:pointer;border:0;border-radius:9px;background:var(--p1);color:#fff;font-size:13px;padding:4px 14px;line-height:1.8;flex:none}
+button[data-copy].done{background:#22a566}
+.copy button[data-copy]{position:absolute;left:10px;top:10px;background:var(--p2)}
+.card{border:1px solid var(--line);border-radius:14px;padding:12px 14px 2px;margin-bottom:14px;background:var(--card)}
+figure{margin:0 0 14px;width:100%;max-width:400px}
+.ann{position:relative}
+.ann img{width:100%;height:auto;display:block;border-radius:14px;border:1px solid var(--line);box-shadow:0 4px 16px rgba(60,30,120,.2)}
+.hl{position:absolute;border:2px solid var(--p2);background:rgba(194,37,127,.09);border-radius:4px}
+.bd{position:absolute;width:24px;height:24px;margin:-12px 0 0 -12px;border-radius:50%;background:var(--p2);color:#fff;font-size:13px;display:flex;align-items:center;justify-content:center;line-height:1;border:2px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,.4)}
+figcaption{font-size:13px;color:var(--muted);text-align:center;margin-top:8px;line-height:1.7}
+.c{display:inline-flex;width:20px;height:20px;border-radius:50%;background:var(--p2);color:#fff;font-size:11px;align-items:center;justify-content:center;vertical-align:middle}
+.legend{width:100%;max-width:400px;border:1px solid var(--line);border-radius:12px;background:var(--bg);padding:4px 14px}
+.legend .it{display:flex;align-items:center;gap:10px;padding:6px 0;border-bottom:1px dashed var(--line);font-size:14px;line-height:1.6}
+.legend .it:last-child{border-bottom:0}
+.legend .n{flex:none;width:22px;height:22px;border-radius:50%;background:var(--p2);color:#fff;font-size:12px;display:flex;align-items:center;justify-content:center}
+.legend .k{flex:none;width:92px;direction:ltr;text-align:left;font-weight:700;color:var(--p1);font-size:13px}
+@media (prefers-color-scheme:dark){.legend .k{color:#c9b8ff}}
+.pair{display:grid;gap:18px;grid-template-columns:1fr;justify-items:center;margin-top:8px}
+@media (min-width:700px){.pair{grid-template-columns:1fr 1fr;align-items:start}}
+.pair>div{width:100%;max-width:400px}
+.foot{margin:36px 0 40px;font-size:13.5px;color:var(--muted);border-top:1px solid var(--line);padding-top:14px}
+@media (max-width:520px){.copy{padding:46px 14px 12px}.copy button[data-copy]{top:9px;left:10px}}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <span class="badge">راهنمای گام‌به‌گام</span>
+    <h1>بازیابی اکانت اینستاگرام<br>بسته‌شده به‌خاطر VPN</h1>
+    <p>مراحل بازگردانی پیج، فرم‌های پشتیبانی، متن‌های آماده برای کپی و روش تأیید هویت با عکس</p>
+    <div class="meta"><span>به‌روزرسانی: ۱۸ آبان ۱۴۰۵</span><span>همه مراحل با فیلترشکن روشن</span></div>
+    <a class="dl" href="instagram-recovery-guide.pdf" download>دانلود نسخه PDF</a>
+  </div>
+</header>
+<nav class="toc"><div class="wrap"><a href="#s1">پسورد دارم</a><a href="#s2">پسورد ندارم</a><a href="#s3">Suspended</a><a href="#s4">سلفی و برگه</a><a href="#s5">فرم ایمیل</a><a href="#s6">جواب ایمیل</a><a href="#s7">متن‌ها</a><a href="#s8">فیسبوک</a></div></nav>
+<main class="wrap">
+<section id="s1"><h2><span class="num">۱</span>پسورد را دارید یا صفحه ارور هنوز باز می‌شود</h2><div class="split"><div class="col-t">
+<p class="lead">اگر هنوز می‌توانید با آیدی و پسورد وارد شوید و صفحه ارور «بسته شدن پیج» را می‌بینید، از این روش شروع کنید.</p>
+<ol class="steps">
+<li>با <b>فیلترشکن روشن</b>، آیدی و پسورد اکانت را وارد کنید تا به صفحه ارور بسته‌شدن پیج برسید.</li>
+<li>روی گزینه آبی <span class="en">Dismiss</span> کلیک کنید.</li>
+<li>اگر ایمیل یا شماره تماس خواست، وارد کنید و کد ارسال‌شده را بزنید. (بهتر است از همان ایمیل و شماره‌ای استفاده کنید که روی اکانت ثبت است.)</li>
+</ol>
+<div class="box ok"><b>نتیجه:</b> یا اکانت همین‌جا بازگردانی می‌شود و کار تمام است، یا با ارور <b>۲۴ ساعته</b> روبه‌رو می‌شوید. در حالت دوم فرم رسمی زیر را پر کنید.</div>
+<p class="label"><span class="pill pl">لینک</span> لمس کنید یا کپی کنید</p><div class="linkbox"><a href="https://help.instagram.com/contact/1784471218363829" target="_blank" rel="noopener" dir="ltr">https://help.instagram.com/contact/1784471218363829</a><button type="button" data-copy="https://help.instagram.com/contact/1784471218363829">کپی</button></div>
+<p class="label"><span class="pill pc">متن آماده</span> کپی کنید و در فیلد ۵ بچسبانید</p><div class="copy"><pre dir="ltr">Hello dear instagram, My account has been deactived please active my account</pre><button type="button" data-copy="Hello dear instagram, My account has been deactived please active my account">کپی</button></div>
+<div class="box note">با فیلترشکن روشن وارد لینک شوید، فرم را مطابق تصویر پر کنید، ارسال کنید و منتظر بازگشت اکانت بمانید.</div>
+<div class="box warn"><b>مسیر رسمی:</b> اینستاگرام روش اصلی را داخل خود برنامه گذاشته؛ هنگام ورود به اکانت غیرفعال روی <span class="en">Request Review</span> یا <span class="en">Disagree with decision</span> بزنید. فرم‌های این راهنما روش‌های تکمیلی‌اند و ممکن است برای بعضی اکانت‌ها دیگر فعال نباشند.</div>
+</div><div class="col-f"><figure><div class="ann"><img src="img/f_form1.jpg" alt="فرم My Instagram account has been deactivated" loading="lazy"><i class="hl" style="left:4.738%;top:27.486%;width:69.882%;height:2.814%"></i><b class="bd" style="left:79.019%;top:28.893%">۱</b><i class="hl" style="left:4.738%;top:39.775%;width:69.882%;height:2.908%"></i><b class="bd" style="left:79.019%;top:41.229%">۲</b><i class="hl" style="left:4.738%;top:50.000%;width:69.882%;height:2.720%"></i><b class="bd" style="left:79.019%;top:51.360%">۳</b><i class="hl" style="left:4.738%;top:57.129%;width:69.882%;height:2.814%"></i><b class="bd" style="left:79.019%;top:58.537%">۴</b><i class="hl" style="left:4.738%;top:64.353%;width:69.882%;height:10.038%"></i><b class="bd" style="left:79.019%;top:69.371%">۵</b><i class="hl" style="left:4.738%;top:75.610%;width:11.844%;height:3.565%"></i><b class="bd" style="left:21.320%;top:77.392%">۶</b></div><figcaption>نمونه پر کردن فرم</figcaption></figure><div class="legend"><div class="it"><span class="n">۱</span><span class="k">Full name</span><span class="v">آیدی پیج (username)</span></div><div class="it"><span class="n">۲</span><span class="k">Username</span><span class="v">دوباره آیدی پیج</span></div><div class="it"><span class="n">۳</span><span class="k">Email</span><span class="v">ایمیل روی اکانت، یا یک ایمیل در دسترس</span></div><div class="it"><span class="n">۴</span><span class="k">Country</span><span class="v">United States را انتخاب کنید</span></div><div class="it"><span class="n">۵</span><span class="k">Reason</span><span class="v">متن آماده را کپی و اینجا وارد کنید</span></div><div class="it"><span class="n">۶</span><span class="k">Send</span><span class="v">دکمه ارسال</span></div></div></div></div></section><section id="s2"><h2><span class="num">۲</span>پسورد را ندارید یا به صفحه ارور دسترسی ندارید</h2><div class="split"><div class="col-t">
+<p>اگر پسورد اکانت را ندارید یا دیگر به صفحه ارور بسته‌شدن دسترسی ندارید، از همان فرم قبلی استفاده کنید:</p>
+<p class="label"><span class="pill pl">لینک</span> لمس کنید یا کپی کنید</p><div class="linkbox"><a href="https://help.instagram.com/contact/1784471218363829" target="_blank" rel="noopener" dir="ltr">https://help.instagram.com/contact/1784471218363829</a><button type="button" data-copy="https://help.instagram.com/contact/1784471218363829">کپی</button></div>
+<div class="box note">اگر ۲۴ ساعت از پایان ارور ۲۴ ساعته گذشته، فرم بالا را پر کرده‌اید و اکانت برنگشته، این فرم را هم ارسال کنید:</div>
+<p class="label"><span class="pill pl">لینک</span> لمس کنید یا کپی کنید</p><div class="linkbox"><a href="https://help.instagram.com/contact/606967319425038" target="_blank" rel="noopener" dir="ltr">https://help.instagram.com/contact/606967319425038</a><button type="button" data-copy="https://help.instagram.com/contact/606967319425038">کپی</button></div>
+<p class="label"><span class="pill pc">متن آماده</span> کپی کنید و در فیلد ۵ بچسبانید</p><div class="copy"><pre dir="ltr">Hello dear instagram, My account has been deactived please active my account</pre><button type="button" data-copy="Hello dear instagram, My account has been deactived please active my account">کپی</button></div>
+<div class="box note">با فیلترشکن روشن وارد لینک شوید و فرم را مطابق تصویر پر کنید.</div>
+</div><div class="col-f"><figure><div class="ann"><img src="img/f_form2.jpg" alt="فرم دوم" loading="lazy"><i class="hl" style="left:4.738%;top:25.328%;width:69.882%;height:2.720%"></i><b class="bd" style="left:79.019%;top:26.689%">۱</b><i class="hl" style="left:4.738%;top:35.272%;width:69.882%;height:2.814%"></i><b class="bd" style="left:79.019%;top:36.679%">۲</b><i class="hl" style="left:4.738%;top:47.561%;width:69.882%;height:2.908%"></i><b class="bd" style="left:79.019%;top:49.015%">۳</b><i class="hl" style="left:4.738%;top:54.784%;width:69.882%;height:2.908%"></i><b class="bd" style="left:79.019%;top:56.238%">۴</b><i class="hl" style="left:4.738%;top:64.353%;width:69.882%;height:10.038%"></i><b class="bd" style="left:79.019%;top:69.371%">۵</b><i class="hl" style="left:4.738%;top:75.610%;width:11.844%;height:3.565%"></i><b class="bd" style="left:21.320%;top:77.392%">۶</b></div><figcaption>فرم درخواست دوم</figcaption></figure><div class="legend"><div class="it"><span class="n">۱</span><span class="k">Full name</span><span class="v">آیدی پیج (username)</span></div><div class="it"><span class="n">۲</span><span class="k">Email</span><span class="v">ایمیل روی اکانت، یا یک ایمیل در دسترس</span></div><div class="it"><span class="n">۳</span><span class="k">Username</span><span class="v">دوباره آیدی پیج</span></div><div class="it"><span class="n">۴</span><span class="k">Mobile number</span><span class="v">شماره روی اکانت، مثلاً +98 9xx xxx xxxx</span></div><div class="it"><span class="n">۵</span><span class="k">Reason</span><span class="v">متن آماده را کپی و اینجا وارد کنید</span></div><div class="it"><span class="n">۶</span><span class="k">Send</span><span class="v">دکمه ارسال</span></div></div></div></div></section><section id="s3"><h2><span class="num">۳</span>اگر ارور «Suspended» دیدید</h2><div class="split"><div class="col-t">
+<div class="box warn"><b>توجه:</b> طبق گزارش کاربران ایرانی، به‌تازگی تعداد زیادی از پیج‌هایی که با VPN نامعتبر وارد شده‌اند یک‌جا <span class="en">suspended</span> شده‌اند. طبق متن خود صفحه (<span class="en">30 days left</span>) معمولاً <b>۳۰ روز</b> فرصت اعتراض دارید.</div>
+<p>برای حل این مشکل گزینه <b class="en">Disagree with decision</b> را بزنید و مراحل را به ترتیب انجام دهید:</p>
+<ol class="steps">
+<li>در مرحله اول تیک «من ربات نیستم» را بزنید.</li>
+<li>در مرحله دوم شماره خود را وارد و تأیید کنید.</li>
+<li>در مرحله سوم ایمیل خود را وارد و تأیید کنید. (اگر روی پیج ایمیل ثبت کرده باشید، این مرحله می‌آید.)</li>
+</ol>
+<div class="box warn"><b>مهم:</b> تمام مراحل بالا را با فیلترشکن روشن انجام دهید.</div>
+<div class="box ok">طبق تجربه‌ی کاربران، معمولاً تا حدود <b>۷۲ ساعت</b> بعد نتیجه مشخص می‌شود. اگر بعد از زدن این گزینه مراحل بالا برایتان نیامد، کمی صبر کنید؛ بعضی کاربران گزارش کرده‌اند پیج بعد از حدود ۱۲ ساعت خودکار فعال شده. (زمان‌ها تقریبی است و تضمینی نیست.)</div>
+</div><div class="col-f"><figure><div class="ann"><img src="img/f_suspended.jpg" alt="صفحه Suspended" loading="lazy"><i class="hl" style="left:3.741%;top:88.672%;width:92.517%;height:6.797%"></i><b class="bd" style="left:3.741%;top:88.672%">۱</b></div><figcaption>دکمه Disagree with decision را بزنید</figcaption></figure></div></div></section><section id="s4"><h2><span class="num">۴</span>تأیید هویت با عکس سلفی و برگه</h2>
+<div class="split"><div class="col-t">
+<p class="lead">اگر اکانت شما با ارور «قفل موقت» و تأیید هویت روبه‌رو می‌شود، این مراحل را انجام دهید.</p>
+<ol class="steps">
+<li>گزینه آبی <span class="en">Continue</span> را بزنید.</li>
+<li>کدی که به شماره یا ایمیل شما ارسال می‌شود را وارد کنید و وارد پیج شوید.</li>
+<li>اگر مرحله عکس آمد، <b>کدی که به شما داده شده را همراه نام کامل و آیدی پیج روی یک برگه کاغذ بنویسید.</b></li>
+<li>خودتان را همراه برگه سلفی بگیرید (چهره و دست‌ها دیده شود)، روی <span class="en">Upload selfie</span> کلیک کنید و عکس را آپلود کنید.</li>
+</ol></div>
+<div class="col-f"><figure><div class="ann"><img src="img/f_locked_c.jpg" alt="صفحه قفل موقت" loading="lazy"><i class="hl" style="left:4.167%;top:86.088%;width:91.667%;height:11.457%"></i><b class="bd" style="left:4.167%;top:86.088%">۱</b></div><figcaption><b class="c">۱</b> صفحه قفل موقت؛ روی Continue بزنید</figcaption></figure></div></div>
+<div class="pair">
+<figure><div class="ann"><img src="img/f_selfie_c.jpg" alt="صفحه آپلود سلفی" loading="lazy"><i class="hl" style="left:32.149%;top:38.105%;width:35.533%;height:4.632%"></i><b class="bd" style="left:72.081%;top:40.421%">۱</b><i class="hl" style="left:38.071%;top:62.842%;width:23.689%;height:3.579%"></i><b class="bd" style="left:66.159%;top:64.632%">۲</b></div><figcaption><b class="c">۲</b> صفحه آپلود سلفی؛ کد را روی برگه بنویسید و Upload selfie را بزنید</figcaption></figure>
+<div><figure><div class="ann"><img src="img/i_person.jpg" alt="نمونه عکس سلفی با برگه" loading="lazy"><i class="hl" style="left:34.375%;top:16.389%;width:31.250%;height:29.259%"></i><b class="bd" style="left:68.029%;top:31.019%">۱</b><i class="hl" style="left:18.029%;top:62.222%;width:63.942%;height:29.444%"></i><b class="bd" style="left:84.135%;top:76.852%">۲</b><i class="hl" style="left:12.981%;top:77.778%;width:12.500%;height:13.889%"></i><b class="bd" style="left:11.058%;top:84.722%">۳</b><i class="hl" style="left:74.519%;top:77.778%;width:12.500%;height:13.889%"></i></div><figcaption><b class="c">۳</b> نمونه عکس (تصویرسازی)؛ همین‌طور بگیرید</figcaption></figure>
+<div class="legend"><div class="it"><span class="n">۱</span><span class="k">Face</span><span class="v">چهره کامل دیده شود</span></div><div class="it"><span class="n">۲</span><span class="k">Paper</span><span class="v">کد + نام کامل + آیدی پیج روی برگه سفید</span></div><div class="it"><span class="n">۳</span><span class="k">Hands</span><span class="v">برگه را با دو دست نگه دارید</span></div></div></div>
+</div></section><section id="s5"><h2><span class="num">۵</span>فرم تأیید با ایمیل</h2><div class="split"><div class="col-t">
+<p>با فیلترشکن روشن وارد لینک زیر شوید:</p>
+<p class="label"><span class="pill pl">لینک</span> لمس کنید یا کپی کنید</p><div class="linkbox"><a href="https://help.instagram.com/contact/1652567838289083" target="_blank" rel="noopener" dir="ltr">https://help.instagram.com/contact/1652567838289083</a><button type="button" data-copy="https://help.instagram.com/contact/1652567838289083">کپی</button></div>
+<ol class="steps">
+<li>گزینه <span class="en">No</span> را انتخاب کنید.</li>
+<li>کادر اول و دوم: آیدی پیج خود را وارد کنید.</li>
+<li>کادر سوم: جیمیل روی پیج یا یک جیمیل در دسترس را وارد کنید.</li>
+<li>کادر چهارم: <span class="en">United States</span> را وارد و انتخاب کنید و روی <span class="en">Send</span> کلیک کنید.</li>
+</ol>
+<div class="box ok">معمولاً بعد از چند دقیقه تا چند ساعت، ایمیلی از پشتیبانی اینستاگرام برایتان می‌آید که یک <b>کد ۵ رقمی</b> داخلش نوشته شده است (مرحله بعد).</div>
+</div><div class="col-f"><figure><div class="ann"><img src="img/f_formno.jpg" alt="فرم تأیید با ایمیل" loading="lazy"><i class="hl" style="left:4.738%;top:32.046%;width:16.413%;height:2.220%"></i><b class="bd" style="left:25.719%;top:33.108%">۱</b><i class="hl" style="left:4.738%;top:38.996%;width:69.882%;height:2.510%"></i><b class="bd" style="left:79.019%;top:40.251%">۲</b><i class="hl" style="left:4.738%;top:51.448%;width:69.882%;height:2.799%"></i><b class="bd" style="left:79.019%;top:52.847%">۳</b><i class="hl" style="left:4.738%;top:61.873%;width:69.882%;height:2.799%"></i><b class="bd" style="left:79.019%;top:63.272%">۴</b><i class="hl" style="left:4.738%;top:69.305%;width:69.882%;height:2.703%"></i><b class="bd" style="left:79.019%;top:70.656%">۵</b><i class="hl" style="left:4.738%;top:73.359%;width:11.844%;height:3.378%"></i><b class="bd" style="left:21.320%;top:75.000%">۶</b></div><figcaption>پر کردن فرم</figcaption></figure><div class="legend"><div class="it"><span class="n">۱</span><span class="k">Business?</span><span class="v">گزینه No را بزنید</span></div><div class="it"><span class="n">۲</span><span class="k">Full name</span><span class="v">آیدی پیج (username)</span></div><div class="it"><span class="n">۳</span><span class="k">Username</span><span class="v">آیدی پیج</span></div><div class="it"><span class="n">۴</span><span class="k">Email</span><span class="v">جیمیل روی پیج یا یک جیمیل در دسترس</span></div><div class="it"><span class="n">۵</span><span class="k">Country</span><span class="v">United States</span></div><div class="it"><span class="n">۶</span><span class="k">Send</span><span class="v">دکمه ارسال</span></div></div></div></div></section><section id="s6"><h2><span class="num">۶</span>ارسال عکس در جواب ایمیل پشتیبانی</h2>
+<ol class="steps">
+<li>بعد از ارسال فرم، ایمیلی از پشتیبانی اینستاگرام می‌آید. فرستنده‌اش ممکن است «Facebook» نمایش داده شود (پشتیبانی اینستاگرام زیر نظر متا کار می‌کند) و آخر ایمیل امضای «The Instagram Team» دارد. داخلش یک <b>کد ۵ رقمی</b> هست.</li>
+<li>کد را همراه <b>نام کامل و آیدی پیج</b> با دست‌خط روی کاغذ سفید بنویسید و با آن عکس بگیرید؛ چهره و کد هر دو واضح دیده شوند.</li>
+<li>روی <span class="en">Reply</span> بزنید، عکس را (به‌صورت <span class="en">JPEG</span>) با گیره پیوست کنید و <b>ارسال</b> را بزنید.</li>
+</ol>
+<div class="box warn"><b>امنیت:</b> فقط به ایمیلی جواب بدهید که بعد از ارسال فرم خودتان رسیده. اینستاگرام هیچ‌وقت پسورد یا پول نمی‌خواهد؛ اگر ایمیل مشکوک بود، عکس‌تان را برای کسی نفرستید.</div>
+<div class="pair">
+<figure><div class="ann"><img src="img/f_email.jpg" alt="ایمیل پشتیبانی" loading="lazy"><i class="hl" style="left:79.188%;top:15.896%;width:6.261%;height:2.773%"></i><b class="bd" style="left:82.910%;top:20.425%">۱</b></div><figcaption><b class="c">۱</b> ایمیل پشتیبانی؛ روی دکمه Reply (فلش برگشت) بزنید</figcaption></figure>
+<figure><div class="ann"><img src="img/f_reply.jpg" alt="پاسخ به ایمیل" loading="lazy"><i class="hl" style="left:68.359%;top:2.405%;width:6.768%;height:2.835%"></i><b class="bd" style="left:71.743%;top:6.873%">۲</b><i class="hl" style="left:79.188%;top:2.405%;width:7.953%;height:2.835%"></i><b class="bd" style="left:83.249%;top:6.873%">۳</b></div><figcaption><b class="c">۲</b> اول گیره و انتخاب عکس از گالری؛ <b class="c">۳</b> بعد دکمه ارسال (فلش آبی)</figcaption></figure>
+</div></section><section id="s7"><h2><span class="num">۷</span>متن‌های درخواست رفع محدودیت</h2>
+<p class="lead">متن مربوط به مشکل خودتان را بردارید و <b>فقط از یک متن</b> استفاده کنید.</p>
+<div class="box note"><b>مسیر ارسال:</b><br><span class="en block">Settings → Help → Report a problem</span>
+مسیر دقیق و گزینه‌ی «without shaking» بسته به نسخه‌ی برنامه فرق می‌کند. فقط <b>قسمت انگلیسی</b> متن را کپی کنید و حتماً با فیلترشکن روشن پیش بروید.</div>
+<div class="card"><h3>مشکل بلاک شدن لایو</h3><p class="label"><span class="pill pc">متن آماده</span> کپی کنید</p><div class="copy"><pre dir="ltr">Hi, l've noticed that my instagram account has been suspended. I don't know! The reason for this blokage, but you should know that l'm a real person.
+I can't leave the living, Would you please recheck my suspension.
+Thanks.</pre><button type="button" data-copy="Hi, l've noticed that my instagram account has been suspended. I don't know! The reason for this blokage, but you should know that l'm a real person.
+I can't leave the living, Would you please recheck my suspension.
+Thanks.">کپی</button></div></div><div class="card"><h3>مشکل بلاک شدن هشتگ‌ها و شادوبن</h3><p class="label"><span class="pill pc">متن آماده</span> کپی کنید</p><div class="copy"><pre dir="ltr">Hi, l've noticed that my instagram account has been suspended. I don't know! The reason for this blokage, but you should know that l'm a real person.
+My hashtags are not visible, Would you please recheck my suspension.
+Thanks.</pre><button type="button" data-copy="Hi, l've noticed that my instagram account has been suspended. I don't know! The reason for this blokage, but you should know that l'm a real person.
+My hashtags are not visible, Would you please recheck my suspension.
+Thanks.">کپی</button></div></div><div class="card"><h3>اکشن بلاک (لایک نشدن پست‌ها و ...)</h3><p class="label"><span class="pill pc">متن آماده</span> کپی کنید</p><div class="copy"><pre dir="ltr">Hi, l've noticed that my instagram account has been suspended. I don't know! The reason for this blokage, but you should know that l'm a real person. Would you please recheck my suspension.</pre><button type="button" data-copy="Hi, l've noticed that my instagram account has been suspended. I don't know! The reason for this blokage, but you should know that l'm a real person. Would you please recheck my suspension.">کپی</button></div></div><div class="card"><h3>پاک کردن تخلف‌ها</h3><p class="label"><span class="pill pc">متن آماده</span> کپی کنید</p><div class="copy"><pre dir="ltr">hello dear instagram, this is the screenshot of my violations and most of them are wrongly and i never didn't do any of them please check all of them.. and help me to come back to previous situation and remove limitation from my account... i will be happy to hear good news of you</pre><button type="button" data-copy="hello dear instagram, this is the screenshot of my violations and most of them are wrongly and i never didn't do any of them please check all of them.. and help me to come back to previous situation and remove limitation from my account... i will be happy to hear good news of you">کپی</button></div></div></section><section id="s8"><h2><span class="num">۸</span>فرم‌های فیسبوک</h2>
+<p>این سه فرم را هم دقیقاً مطابق توضیحات بالا پر کنید و اگر نیاز به عکس بود، ارسال کنید.</p>
+<p class="label"><span class="pill pl">لینک</span> لمس کنید یا کپی کنید</p><div class="linkbox"><a href="https://www.facebook.com/help/contact/606967319425038" target="_blank" rel="noopener" dir="ltr">https://www.facebook.com/help/contact/606967319425038</a><button type="button" data-copy="https://www.facebook.com/help/contact/606967319425038">کپی</button></div>
+<p class="label"><span class="pill pl">لینک</span> لمس کنید یا کپی کنید</p><div class="linkbox"><a href="https://www.facebook.com/help/contact/1652567838289083" target="_blank" rel="noopener" dir="ltr">https://www.facebook.com/help/contact/1652567838289083</a><button type="button" data-copy="https://www.facebook.com/help/contact/1652567838289083">کپی</button></div>
+<p class="label"><span class="pill pl">لینک</span> لمس کنید یا کپی کنید</p><div class="linkbox"><a href="https://www.facebook.com/help/contact/1784471218363829" target="_blank" rel="noopener" dir="ltr">https://www.facebook.com/help/contact/1784471218363829</a><button type="button" data-copy="https://www.facebook.com/help/contact/1784471218363829">کپی</button></div>
+<h3 class="h3">خلاصه سریع</h3>
+<ol class="steps">
+<li>فیلترشکن را روشن کنید و با آیدی و پسورد وارد شوید.</li>
+<li>ارور را <span class="en">Dismiss</span> یا <span class="en">Continue</span> کنید و کد ایمیل یا شماره را بزنید.</li>
+<li>اگر ارور ۲۴ ساعته آمد، فرم اول را با متن آماده پر کنید.</li>
+<li>اگر ۲۴ ساعت بعد برنگشت، فرم دوم را بفرستید و <span class="en">Disagree with decision</span> را بزنید.</li>
+<li>برای تأیید هویت، کد را با نام و آیدی پیج روی کاغذ بنویسید و سلفی بفرستید.</li>
+<li>برای محدودیت‌ها از <span class="en">Report a problem</span> و متن مناسب استفاده کنید.</li>
+</ol></section>
+<aside class="foot">
+  <p><b>توجه:</b> این راهنما غیررسمی است و با اینستاگرام یا متا ارتباطی ندارد. روش‌ها و فرم‌ها مدام تغییر می‌کنند و بازگشت اکانت تضمینی نیست. زمان‌ها تجربه‌ی کاربران است. هیچ‌وقت پسورد خود را به کسی ندهید و فقط از لینک‌های help.instagram.com و facebook.com/help استفاده کنید.</p>
+</aside>
+</main>
+<script>document.addEventListener('click',function(e){
+  var b=e.target.closest('button[data-copy]'); if(!b) return;
+  var t=b.getAttribute('data-copy');
+  var ok=function(){var o=b.textContent;b.textContent='کپی شد ✓';b.classList.add('done');setTimeout(function(){b.textContent=o;b.classList.remove('done')},1600)};
+  var fb=function(){var a=document.createElement('textarea');a.value=t;a.style.position='fixed';a.style.opacity='0';document.body.appendChild(a);a.select();try{document.execCommand('copy');ok()}catch(_){}document.body.removeChild(a)};
+  if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(t).then(ok,fb)}else{fb()}
+});
+</script>
+</body>
+</html>
